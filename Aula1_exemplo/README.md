@@ -130,7 +130,7 @@ Repare que ao adicionar um comando chamado ToString e inserir nele o caracter "c
 
 Caso você queira exibir a data, você possui algumas opções utilizando a sua variavel **data**, esta variavel esta armazenando na memoria data de hoje, porém na hora de exibir pro usuário você pode escolher de exibir a data abreviada, a data por extenso, apenas o mês, apenas o ano ou ate mesmo apenas o dia:
 
-    Console.Write($"{data.ToLongDateString()} \n"); //Exibe a data por extenso
+    Console.WriteLine($"{data.ToLongDateString()}"); //Exibe a data por extenso
     Console.WriteLine($"{data.ToShortDateString()}"); //Exibe a data abreviada
     Console.WriteLine($"{data.Month}"); //Exibe apenas o mês
     Console.WriteLine($"{data.Year}"); //Exibe apenas o ano
