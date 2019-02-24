@@ -30,13 +30,13 @@ Logo em seguida a IDE irá iniciar e assim desta forma, conseguiremos trabalhar 
 
 O Arquivo **Aula1_exemplo.csproj** é o arquivo onde podemos ver qual a versão do .NETCore que estamos utilizando nesse projeto, pois em cada projeto você pode utilizar uma versão diferente. O arquivo que mais vamos mexer nesse curso é o **Program.cs** é nele que a maior parte da nossa lógica ficará, pelo menos até o momento em que veremos Orientação a Objetos.
 
-![Pastas](/.asset/img/pastas.png "Pastas")
+![Pastas](https://i.imgur.com/TCmwKVZ.png "Pastas")
 
 ## Primeiro Contato com o Código
 
 Após clicar no **Program.cs** podemos ver um pouco de código também já gerado pelo framework.
 
-![Main](/.asset/img/main.png "Main")
+![Main](https://i.imgur.com/f4QnjBr.png "Main")
 
 O código abaixo é uma biblioteca pronta do próprio C# que utiliza alguns recursos do sistema. O using é o comando para informar ao C# que eu irei utilizar a biblioteca System nesse meu código.
 
@@ -68,7 +68,7 @@ Após o terminal ser aberto basta apenas digitar o seguinte comando para que sua
 
 Após isso, podemos ver a mensagem que esta escrita no Console.WriteLine, no caso **"Hello World!!"**
 
-![Mensagem](/.asset/img/mensagem.png "Mensagem")
+![Mensagem](https://i.imgur.com/SnTa7h9.png "Mensagem")
 
 ## Variáveis
 
@@ -120,7 +120,7 @@ Como haviamos visto o comando Console.WriteLine exibe uma mensagem personalizada
 
 No inicio do comando precisamos colocar o $(cifrão), para indicar que queremos exibir o valor da variável como texto para o usuário e para informamos que no meio do texto aquilo é de fato uma variável devemos coloca-lá entre **{nome}** (Chaves). Após isso execute o código.
 
-![Concatenação](/.asset/img/concatenacao.png "Concatenação")
+![Concatenação](https://i.imgur.com/aul9puw.png "Concatenação")
 
 Podemos perceber que o saldo da conta não está sendo exibida com os numeros após a virgula, como tipo de dado double, aceita valores inteiros ele entende que aquele valor é inteiro e não exibi os valores, para resolver o problema é simples, basta adicionar a seguinte linha de código:
 
@@ -182,13 +182,13 @@ Teste e código.
 
 Faça um programa que calcule a área de um círculo. A fórmula para calcular a área de uma circunferência é: area = π * (raio * raio). Considerando para este problema que π = 3.14159. O usuário deve digitar apenas o valor do raio que será do tipo double e logo após o cálculo deverá ser mostrado o resultado do cálculo.
 
-![Exercicio 1](/.asset/img/exercicio1.png "Exercicio 1")
+![Exercicio 1](https://i.imgur.com/SXGjna7.png "Exercicio 1")
 
 ## Exercicio 2
 
 Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário.
 
-![Exercicio 2](/.asset/img/exercicio2.png "Exercicio 2")
+![Exercicio 2](https://i.imgur.com/Yz9N70J.png "Exercicio 2")
 
 ## Exercicio 3
 
@@ -199,4 +199,4 @@ Escreva um programa que leia três valores com ponto flutuante de dupla precisã
 4. a área do quadrado que tem lado B. 
 5. a área do retângulo que tem lados A e B.
 
-![Exercicio 3](/.asset/img/exercicio3.png "Exercicio 3")
+![Exercicio 3](https://i.imgur.com/E64CFS7.png "Exercicio 3")
