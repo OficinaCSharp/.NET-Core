@@ -30,13 +30,13 @@ Logo em seguida a IDE irá iniciar e assim desta forma, conseguiremos trabalhar 
 
 O Arquivo **Aula1_exemplo.csproj** é o arquivo onde podemos ver qual a versão do .NETCore que estamos utilizando nesse projeto, pois em cada projeto você pode utilizar uma versão diferente. O arquivo que mais vamos mexer nesse curso é o **Program.cs** é nele que a maior parte da nossa lógica ficará, pelo menos até o momento em que veremos Orientação a Objetos.
 
-![Pastas](/asset/img/Pastas "Pastas")
+![Pastas](/.asset/img/pastas.png "Pastas")
 
 ## Primeiro Contato com o Código
 
 Após clicar no **Program.cs** podemos ver um pouco de código também já gerado pelo framework.
 
-![Main](/asset/img/main "Main")
+![Main](/.asset/img/main.png "Main")
 
 O código abaixo é uma biblioteca pronta do próprio C# que utiliza alguns recursos do sistema. O using é o comando para informar ao C# que eu irei utilizar a biblioteca System nesse meu código.
 
@@ -68,7 +68,7 @@ Após o terminal ser aberto basta apenas digitar o seguinte comando para que sua
 
 Após isso, podemos ver a mensagem que esta escrita no Console.WriteLine, no caso **"Hello World!!"**
 
-![Mensagem](/asset/img/mensagem "Mensagem")
+![Mensagem](/.asset/img/mensagem.png "Mensagem")
 
 ## Variáveis
 
@@ -120,10 +120,83 @@ Como haviamos visto o comando Console.WriteLine exibe uma mensagem personalizada
 
 No inicio do comando precisamos colocar o $(cifrão), para indicar que queremos exibir o valor da variável como texto para o usuário e para informamos que no meio do texto aquilo é de fato uma variável devemos coloca-lá entre **{nome}** (Chaves). Após isso execute o código.
 
-![Concatenação](/asset/img/concatenacao "Concatenação")
+![Concatenação](/.asset/img/concatenacao.png "Concatenação")
 
 Podemos perceber que o saldo da conta não está sendo exibida com os numeros após a virgula, como tipo de dado double, aceita valores inteiros ele entende que aquele valor é inteiro e não exibi os valores, para resolver o problema é simples, basta adicionar a seguinte linha de código:
 
     Console.WriteLine($"Meu nome é {nome}, tenho {idade} anos, meu saldo na conta é de {saldo.ToString("c")} ");
 
-Repare que eu adicione um comando chamado ToString e inseri nele o caracter "c", este comando transforma o saldo que é um valor do tipo double em um valor do tipo String, e o caracter "c", força os valores após a virgula e ainda por cima, informa qual a moeda daquele saldo, ou seja, se é em dolar, real, libra e etc. Execute o código e veja a diferença
+Repare que ao adicionar um comando chamado ToString e inserir nele o caracter "c", este comando transforma o saldo que é um valor do tipo double em um valor do tipo String, e o caracter "c", força os valores após a virgula e ainda por cima, informa qual a moeda daquele saldo, ou seja, se é em dolar, real, libra e etc. Execute o código e veja a diferença
+
+Caso você queira exibir a data, você possui algumas opções utilizando a sua variavel **data**, esta variavel esta armazenando na memoria data de hoje, porém na hora de exibir pro usuário você pode escolher de exibir a data abreviada, a data por extenso, apenas o mês, apenas o ano ou ate mesmo apenas o dia:
+
+    Console.Write($"{data.ToLongDateString()} \n"); //Exibe a data por extenso
+    Console.WriteLine($"{data.ToShortDateString()}"); //Exibe a data abreviada
+    Console.WriteLine($"{data.Month}"); //Exibe apenas o mês
+    Console.WriteLine($"{data.Year}"); //Exibe apenas o ano
+    Console.WriteLine($"{data.Day}"); //Exibe apenas o dia
+
+## Lendo Dados do Usuário
+
+Você ja deve ter percebido que ficar definindo o valor da variavel não é uma coisa muito legal, até porque o nome é variavel, entao se voce mesmo define o valor ela deixa de ser uma variável e vira uma constante, mas para que isso não aconteça dessa vez vamos pedir para o usuário preencher essas variaveis com dados, para isso precisaremos utilizar um novo comando, que é derivado da mesma biblioteca do Console.WriteLine, ou seja a biblioteca System.
+
+    Console.WriteLine("Digite seu nome: ");
+    nome = Console.ReadLine();
+
+Como pode ver eu peço ao usuário através de uma mensagem para que ele digite o nome, logo em seguida eu utilizo da variável que eu ja havia criado e subescrevo ela com o valor que o usuario digitar e para receber este valor eu utilizo o comando **Console.ReadLine()** que como o próprio nome ja diz ele irá ler a linha em que o usuário digitou, ou seja qualquer coisa que o usuário digitar ele irá pegar esse determinado dado e irá armazenar em uma variável.
+
+### Conversão de Variáveis
+
+Mas há um porem nisso tudo, o **Console.ReadLine()** so lê tipos de dados String, pois String aceita tudo, como numeros, valores booleanos e etc, então voce deve estar se perguntando, entao porque na hora de declarar as variaveis não coloco como tudo do tipo String, pelo simples fato que com String você não consegue realizar cálculos, apenas valores do tipo int e double que são possiveis efetuar cálculos, então como faremos para pegar um número digitado pelo usuario e converter esse numero de String para int, simple utilizaremos no comando a seguir:
+
+    Console.WriteLine("Digite sua idade: ");
+    idade = int.Parse(Console.ReadLine());
+
+Para converter um valor do tipo String para int, devemos utilizar o comando **int.Parse(Console.ReadLine());**, a mesma coisa se aplica a valores do tipo double:
+
+    Console.WriteLine("Digite seu saldo: ");
+    saldo = double.Parse(Console.ReadLine());
+    Console.WriteLine($"Meu nome é {nome}, tenho {idade} anos, meu saldo na conta é de {saldo.ToString("c")} ");
+
+## Operadores Matemáticos
+
+Como já é visto desde o primário na escola, para realizar operações matemáticas é necessários simbolos, como por exemplo para somar é necessário o simbolo de **+** (Mais), na programação não é diferente, então agora irei mostrar alguns simbolos de operação matemática utilizado na linguagem C#:
+
+    double valor1 = 50, valor2 = 35;
+
+    double soma = valor1 + valor2; //Somar
+    double sub = valor1 - valor2; //Subtrair
+    double mult = valor1 * valor2; //Multiplicar 
+    double div = valor1 / valor2; //Dividir
+    double restoDiv = valor1 % valor2; //Resto da divisão
+
+    Console.WriteLine($"Resultado da soma é: {soma} ");
+    Console.WriteLine($"Resultado da subtração é: {sub} ");
+    Console.WriteLine($"Resultado da multiplicação é: {mult} ");
+    Console.WriteLine($"Resultado da divisão é: {div} ");
+    Console.WriteLine($"Resultado do resto da divisão é: {restoDiv} ");
+
+Teste e código.
+
+## Exercicio 1
+
+Faça um programa que calcule a área de um círculo. A fórmula para calcular a área de uma circunferência é: area = π * (raio * raio). Considerando para este problema que π = 3.14159. O usuário deve digitar apenas o valor do raio que será do tipo double e logo após o cálculo deverá ser mostrado o resultado do cálculo.
+
+![Exercicio 1](/.asset/img/exercicio1.png "Exercicio 1")
+
+## Exercicio 2
+
+Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário.
+
+![Exercicio 2](/.asset/img/exercicio2.png "Exercicio 2")
+
+## Exercicio 3
+
+Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre: 
+1. a área do triângulo retângulo que tem A por base e C por altura. 
+2. a área do círculo de raio C. (pi = 3.14159) 
+3. a área do trapézio que tem A e B por bases e C por altura. 
+4. a área do quadrado que tem lado B. 
+5. a área do retângulo que tem lados A e B.
+
+![Exercicio 3](/.asset/img/exercicio3.png "Exercicio 3")

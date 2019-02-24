@@ -12,7 +12,11 @@ namespace Aula1_exemplo
             DateTime data = DateTime.Today;
 
             Console.WriteLine($"Meu nome é {nome}, tenho {idade} anos, meu saldo na conta é de {saldo.ToString("c")} ");
-            Console.Write($"{data.ToLongDateString()} \n");
+            Console.WriteLine($"{data.ToLongDateString()}");
+            Console.WriteLine($"{data.ToShortDateString()}");
+            Console.WriteLine($"{data.Month}");
+            Console.WriteLine($"{data.Year}");
+            Console.WriteLine($"{data.Day}");
 
 
 
