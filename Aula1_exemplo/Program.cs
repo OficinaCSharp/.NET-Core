@@ -7,7 +7,7 @@ namespace Aula1_exemplo
         static void Main(string[] args)
         {
             Calculadora calc = new Calculadora();
-            calc.Nome = Console.ReadLine();
+            calc.Nome = Console.ReadLine(); 
 
             Console.WriteLine($"Nome: {calc.Nome}");
             Console.WriteLine($"O Resultado da soma é: {calc.Somar()}");
