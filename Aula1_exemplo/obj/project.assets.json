@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ronaldo/Documentos/Fatec/Oficinas/C#/Aula1_exemplo/Aula1_exemplo.csproj",
+      "projectUniqueName": "/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/Aula1_exemplo.csproj",
       "projectName": "Aula1_exemplo",
-      "projectPath": "/home/ronaldo/Documentos/Fatec/Oficinas/C#/Aula1_exemplo/Aula1_exemplo.csproj",
+      "projectPath": "/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/Aula1_exemplo.csproj",
       "packagesPath": "/home/ronaldo/.nuget/packages/",
-      "outputPath": "/home/ronaldo/Documentos/Fatec/Oficinas/C#/Aula1_exemplo/obj/",
+      "outputPath": "/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ronaldo/.nuget/NuGet/NuGet.Config"

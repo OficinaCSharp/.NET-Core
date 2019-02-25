@@ -9,3 +9,14 @@
 /home/ronaldo/Documentos/Fatec/Oficinas/C#/Aula1_exemplo/bin/Debug/netcoreapp2.2/Aula1_exemplo.pdb
 /home/ronaldo/Documentos/Fatec/Oficinas/C#/Aula1_exemplo/obj/Debug/netcoreapp2.2/Aula1_exemplo.dll
 /home/ronaldo/Documentos/Fatec/Oficinas/C#/Aula1_exemplo/obj/Debug/netcoreapp2.2/Aula1_exemplo.pdb
+/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/bin/Debug/netcoreapp2.2/Aula1_exemplo.deps.json
+/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/bin/Debug/netcoreapp2.2/Aula1_exemplo.runtimeconfig.json
+/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/bin/Debug/netcoreapp2.2/Aula1_exemplo.runtimeconfig.dev.json
+/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/bin/Debug/netcoreapp2.2/Aula1_exemplo.dll
+/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/bin/Debug/netcoreapp2.2/Aula1_exemplo.pdb
+/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/obj/Debug/netcoreapp2.2/Aula1_exemplo.csprojAssemblyReference.cache
+/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/obj/Debug/netcoreapp2.2/Aula1_exemplo.csproj.CoreCompileInputs.cache
+/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/obj/Debug/netcoreapp2.2/Aula1_exemplo.AssemblyInfoInputs.cache
+/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/obj/Debug/netcoreapp2.2/Aula1_exemplo.AssemblyInfo.cs
+/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/obj/Debug/netcoreapp2.2/Aula1_exemplo.dll
+/home/ronaldo/Documentos/Fatec/Oficinas/C#/NET-Core/Aula1_exemplo/obj/Debug/netcoreapp2.2/Aula1_exemplo.pdb

@@ -6,55 +6,16 @@ namespace Aula1_exemplo
     {
         static void Main(string[] args)
         {
-            String nome = "Ronaldo";
-            int idade = 19;
-            double saldo = 1000.00;
-            DateTime data = DateTime.Today;
+            Calculadora calc = new Calculadora();
+            calc.Nome = Console.ReadLine();
 
-            Console.WriteLine($"Meu nome é {nome}, tenho {idade} anos, meu saldo na conta é de {saldo.ToString("c")} ");
-            Console.WriteLine($"{data.ToLongDateString()}");
-            Console.WriteLine($"{data.ToShortDateString()}");
-            Console.WriteLine($"{data.Month}");
-            Console.WriteLine($"{data.Year}");
-            Console.WriteLine($"{data.Day}");
-
-
-
-            Console.Write("------------------------------------------------------------------------------ \n");
-
-
-
-            Console.Write("Digite seu nome: \n");
-            String nome2 = Console.ReadLine();
-
-            Console.Write("Digite sua idade: \n");
-            int idade2 = int.Parse(Console.ReadLine());
-
-            Console.Write("Digite seu saldo: \n");
-            double saldo2 = double.Parse(Console.ReadLine());
-
-            Console.Write($"Meu nome é {nome2}, tenho {idade2} anos, meu saldo na conta é de {saldo2.ToString("c")} \n");
-
-
-
-            Console.Write("------------------------------------------------------------------------------ \n");
-
-
-
-            double valor1 = 50,
-                   valor2 = 35;
-
-            double soma = valor1 + valor2;
-            double sub = valor1 - valor2;
-            double mult = valor1 * valor2;
-            double div = valor1 / valor2;
-            double restoDiv = valor1 % valor2;
-
-            Console.Write($"Resultado da soma é: {soma} \n");
-            Console.Write($"Resultado da subtração é: {sub} \n");
-            Console.Write($"Resultado da multiplicação é: {mult} \n");
-            Console.Write($"Resultado da divisão é: {div} \n");
-            Console.Write($"Resultado do resto da divisão é: {restoDiv} \n");
+            Console.WriteLine($"Nome: {calc.Nome}");
+            Console.WriteLine($"O Resultado da soma é: {calc.Somar()}");
+            Console.WriteLine($"O Resultado da subtração é: {calc.Subtrair()}");
+            Console.WriteLine($"O Resultado da multiplicação é: {calc.Multiplicar()}");
+            Console.WriteLine($"O Resultado da divisão é: {calc.Dividir()}");
+            Console.WriteLine($"O Resultado do resto da divisão é: {calc.DividirResto()}");
+            
         }
     }
 }
