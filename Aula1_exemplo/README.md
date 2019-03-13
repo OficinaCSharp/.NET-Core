@@ -40,19 +40,25 @@ Após clicar no **Program.cs** podemos ver um pouco de código também já gerad
 
 O código abaixo é uma biblioteca pronta do próprio C# que utiliza alguns recursos do sistema. O using é o comando para informar ao C# que eu irei utilizar a biblioteca System nesse meu código.
 
+```csharp
     Using System;
+```
 
 o class Program é o nome da classe que estou utilizando no momento que no caso é referenciado pelo nome do próprio arquivo **Program.cs**, o static void Main é o método principal da minha classe, porém não explicarei a fundo o que ele é, pois isso é assunto para a parte de orientação a objeto, o que é necessário saber é que é dentro desse método que iremos colocar todo o nosso código.
 
+```csharp
     class Program{
         static void Main(string[] args){
 
         }
     }
+```
 
 O comando a seguir irá exibir uma mensagem em um terminal no caso "Hello World!!". Console.WriteLine é um comando da biblioteca System (biblioteca na qual importamos na primeira linha de código), Esse comando é reponsavél por exibir/escrever na tela uma mensagem para o usuário.
 
+```csharp
     Console.WriteLine("Hello World!!");
+```
 
 *Obs: Não se esqueça do ";"(Ponto e virgula) no final de cada linha de comando*
 
@@ -74,10 +80,12 @@ Após isso, podemos ver a mensagem que esta escrita no Console.WriteLine, no cas
 
 Na maioria das linguagens de programação temos que começar declarando variáveis e no C# não é diferente, mas você deve estar se perguntando o que é uma variável ? variável nada mais é do que um local/endereço onde podemos armazenar dados e como o próprio nome já diz esses dados podem variar, vamos entender um pouco melhor no código. Apague a linha do **Console.WriteLine** e digite os seguintes comandos:
 
+```csharp
     String nome = "Ronaldo";
     int idade = 19;
     double saldo = 1000.00;
     DateTime data = DateTime.Today;
+```
 
 Eu declarei 4 variáveis e cada uma possui um tipo de dado, porém eu irei explicar isso daqui a pouco, mas o que importa no momento é que você consiga entender como funciona a declaração de uma variável, no caso a variável ela sempre tem que ter um nome, e esse nome você mesmo pode definir, porem coloque um nome que tenha a ver com o dado que você quer armazenar, por exemplo, eu declarei uma variável com o nome **idade** que esta recebendo o valor 19.
 
@@ -116,17 +124,21 @@ Essas são alguns tipos de variáveis disponiveis, existem muito mais, porém fi
 
 Como haviamos visto o comando Console.WriteLine exibe uma mensagem personalizada pelo próprio desenvolvedor, porém se você quiser exibir dados de uma determinada variável é necessário utilizar a seguinte sintaxe:
 
+```csharp
     Console.WriteLine($"Meu nome é {nome}");
+```
 
 No inicio do comando precisamos colocar o $(cifrão), para indicar que queremos exibir o valor da variável como texto para o usuário e para informamos que no meio do texto aquilo é de fato uma variável devemos coloca-lá entre **{nome}** (Chaves). Após isso execute o código.
 
 Caso você queira exibir a data, você possui algumas opções utilizando a sua variavel **data**, esta variavel esta armazenando na memoria data de hoje, porém na hora de exibir pro usuário você pode escolher de exibir a data abreviada, a data por extenso, apenas o mês, apenas o ano ou ate mesmo apenas o dia:
 
+```csharp
     Console.WriteLine($"{data.ToLongDateString()}"); //Exibe a data por extenso
     Console.WriteLine($"{data.ToShortDateString()}"); //Exibe a data abreviada
     Console.WriteLine($"{data.Month}"); //Exibe apenas o mês
     Console.WriteLine($"{data.Year}"); //Exibe apenas o ano
     Console.WriteLine($"{data.Day}"); //Exibe apenas o dia
+```
 
 ## Exercicio
 
