@@ -1,0 +1,11 @@
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula1\bin\Debug\netcoreapp2.2\Aula1.deps.json
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula1\bin\Debug\netcoreapp2.2\Aula1.runtimeconfig.json
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula1\bin\Debug\netcoreapp2.2\Aula1.runtimeconfig.dev.json
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula1\bin\Debug\netcoreapp2.2\Aula1.dll
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula1\bin\Debug\netcoreapp2.2\Aula1.pdb
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula1\obj\Debug\netcoreapp2.2\Aula1.csprojAssemblyReference.cache
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula1\obj\Debug\netcoreapp2.2\Aula1.csproj.CoreCompileInputs.cache
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula1\obj\Debug\netcoreapp2.2\Aula1.AssemblyInfoInputs.cache
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula1\obj\Debug\netcoreapp2.2\Aula1.AssemblyInfo.cs
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula1\obj\Debug\netcoreapp2.2\Aula1.dll
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula1\obj\Debug\netcoreapp2.2\Aula1.pdb
