@@ -72,5 +72,16 @@ O **do** é para indicar que antes de qualquer condição ou qualquer repetiçã
 
 ## Exercicio 1
 
-Faça um programa que exiba todos os números entre 4 e 55 e exiba eles na tela:
+Faça um programa que exiba todos os números entre 4 e 55 e exiba eles na tela
 
+## Exercicio 2
+
+Faça um programa que exiba todos os numeros entre 50 e 4, ou seja comece exibindo do numero 50 e termine no numero 4
+
+## Exercicio 3
+
+Faça um programa que exiba todos os numeros pares entre 1 e 100
+
+## Exercicio 4
+
+Faça um programa que peça para o usuario digitar dois numeros e logo em seguida apareça um menu com 4 opções(1 - soma, 2 - subtrair, 3-multiplicar e 4 - dividir), faça o devido tratamento para que ele não digite um valor invalido do menu, após ser escolhido a operação desejada, exiba o resultado da operação com os dois numeros
