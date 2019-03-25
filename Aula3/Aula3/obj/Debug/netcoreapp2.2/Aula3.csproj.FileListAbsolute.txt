@@ -1,0 +1,11 @@
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula3\Aula3\bin\Debug\netcoreapp2.2\Aula3.deps.json
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula3\Aula3\bin\Debug\netcoreapp2.2\Aula3.runtimeconfig.json
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula3\Aula3\bin\Debug\netcoreapp2.2\Aula3.runtimeconfig.dev.json
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula3\Aula3\bin\Debug\netcoreapp2.2\Aula3.dll
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula3\Aula3\bin\Debug\netcoreapp2.2\Aula3.pdb
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula3\Aula3\obj\Debug\netcoreapp2.2\Aula3.csprojAssemblyReference.cache
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula3\Aula3\obj\Debug\netcoreapp2.2\Aula3.csproj.CoreCompileInputs.cache
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula3\Aula3\obj\Debug\netcoreapp2.2\Aula3.AssemblyInfoInputs.cache
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula3\Aula3\obj\Debug\netcoreapp2.2\Aula3.AssemblyInfo.cs
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula3\Aula3\obj\Debug\netcoreapp2.2\Aula3.dll
+C:\Users\Ron\Documents\Fatec\Oficinas\NETCore\NET-Core-Iniciante\Aula3\Aula3\obj\Debug\netcoreapp2.2\Aula3.pdb

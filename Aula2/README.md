@@ -1,3 +1,5 @@
+# Segunda Aula de .NET Core
+
 ## Lendo Dados do Usuário
 
 Você ja deve ter percebido que ficar definindo o valor da variavel não é uma coisa muito legal, até porque o nome é variavel, entao se voce mesmo define o valor ela deixa de ser uma variável e vira uma constante, mas para que isso não aconteça dessa vez vamos pedir para o usuário preencher essas variaveis com dados, para isso precisaremos utilizar um novo comando, que é derivado da mesma biblioteca do Console.WriteLine, ou seja a biblioteca System.
