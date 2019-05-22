@@ -1,0 +1,11 @@
+C:\Users\Matheus\source\repos\AulaList\AulaList\bin\Debug\netcoreapp2.1\AulaList.deps.json
+C:\Users\Matheus\source\repos\AulaList\AulaList\bin\Debug\netcoreapp2.1\AulaList.runtimeconfig.json
+C:\Users\Matheus\source\repos\AulaList\AulaList\bin\Debug\netcoreapp2.1\AulaList.runtimeconfig.dev.json
+C:\Users\Matheus\source\repos\AulaList\AulaList\bin\Debug\netcoreapp2.1\AulaList.dll
+C:\Users\Matheus\source\repos\AulaList\AulaList\bin\Debug\netcoreapp2.1\AulaList.pdb
+C:\Users\Matheus\source\repos\AulaList\AulaList\obj\Debug\netcoreapp2.1\AulaList.csprojAssemblyReference.cache
+C:\Users\Matheus\source\repos\AulaList\AulaList\obj\Debug\netcoreapp2.1\AulaList.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\AulaList\AulaList\obj\Debug\netcoreapp2.1\AulaList.AssemblyInfoInputs.cache
+C:\Users\Matheus\source\repos\AulaList\AulaList\obj\Debug\netcoreapp2.1\AulaList.AssemblyInfo.cs
+C:\Users\Matheus\source\repos\AulaList\AulaList\obj\Debug\netcoreapp2.1\AulaList.dll
+C:\Users\Matheus\source\repos\AulaList\AulaList\obj\Debug\netcoreapp2.1\AulaList.pdb
